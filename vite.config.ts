@@ -20,7 +20,7 @@ export default defineConfig(({ mode }) => {
   const figmaBasePath = process.env.FIGMA_PUBLIC_URL ? `${process.env.FIGMA_PUBLIC_URL}/` : undefined
 
   return {
-    base: '/',
+    base: '/Painel-de-Controle/',
     build: {
       sourcemap: emitSourcemaps ? 'inline' : false,
       minify: !emitSourcemaps,
